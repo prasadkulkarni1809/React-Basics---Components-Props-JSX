@@ -1,0 +1,24 @@
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+
+   color: white;
+   font-size: 1.5rem;
+   gap: 20px;
+}
+#user-image {
+  width: 200px; /* or whatever size you wan
+  t */
+  gap: 20px;
+  height: auto; /* maintain aspect ratio */
+  border-radius: 10px; /* optional, for rounded corners */
+}
